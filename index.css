@@ -1,0 +1,151 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+/*1st div*/
+.herodiv{
+    background-image: url("./images/aaron-burden-6jYoil2GhVk-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    margin: 0%;
+    padding: 20px;
+    margin-top: 0%;
+}
+.heading{
+    text-align: center;
+    font-weight: bolder;
+    margin: 10px;
+    font-size: 60px;
+    color: rgb(246, 245, 252);
+    text-shadow: 5px 2px rgb(12, 2, 2);
+}
+body{
+    background-color: rgb(4, 4, 39);
+}
+
+.inputs{
+    margin: 25px;
+    padding: 25px;
+    text-align: center;
+    width: auto;
+}
+.name{
+    border-radius: 10px;
+    border-style: none;
+}
+.inputfield{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addbtn{
+    background-color: red;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.addbtn:hover{
+    background-color: rgb(187, 16, 16);
+    cursor: pointer;
+}
+.desname{
+    background-color: white;
+    border-radius: 10px;
+    text-align: left;
+    width: 25%;
+    margin: 10px;
+    padding: 20px;
+}
+.desclass{
+    background-color: white;
+    border-radius: 10px;
+    text-align: left;
+    width: 25%;
+    margin: 10px;
+    padding: 20px;
+}
+.desid{
+    background-color: white;
+    border-radius: 10px;
+    text-align: left;
+    width: 25%;
+    margin: 10px;
+    padding: 20px;
+}
+.desrno{
+    background-color: white;
+    border-radius: 10px;
+    text-align: left;
+    width: 25%;
+    margin: 10px;
+    padding: 20px;
+}
+.contain{
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+}
+.delete{
+    background-color: white;
+    border-radius: 10px;
+    text-align: left;
+    width: 3%;
+    margin: 10px;
+    padding: 20px;
+}
+/*Destination Headings*/
+.headingss{
+    background-color: rgb(26, 29, 236);
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 2px black;
+}
+.headingssa{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    width: 3%;
+    padding: 20px;
+    text-align: center;
+}
+/*Marquee*/
+.headingcontain{
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Input Section*/
+.inputs{
+    background-color: rgba(255, 255, 255, 0.61);
+    margin: 30px;
+    padding: 50px;
+    border-radius: 20px;
+}
+legend{
+    padding: 10px;
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+    font-size: 28px;
+}
+.name{
+    padding: 10px;
+    width: 300px;
+}
+#deletedata{
+    font-size: 30px;
+    padding: 20px;
+}
+.contain{
+    overflow:scroll;
+}
